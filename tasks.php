@@ -16,6 +16,22 @@ require 'models/Task.php';
 //
 //$tasks = [$task1, $task2, $task3];
 
+
+//Conexio a la BD
+
+try {
+    $pdo = new PDO('mysql:host=127.0.0.1;dbname=php-learning','debian-sys-maint','73ljBdLD9Yiztk1I');
+} catch (\PDOException $e) {
+    die('Could not connect: ' . $e);
+}
+
+// CONUSLTA SQL -> STATEMENT SQL
+
+
+$statement = $pdo->prepare( 'SELECT * FROM task');
+$statement->execute();
+$tasks = $statement->fetchAll( PDO::FETCH_CLASS);
+
 $tasks = [
     new Task( 'comprar pa ', false),
     new Task( 'comprar llet', true),
@@ -23,5 +39,5 @@ $tasks = [
 
 ];
 
-require 'views/tasks.blade.php';
+require 'views/task.blade.php';
 
