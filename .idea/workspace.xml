@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26b1941c-6cd8-4901-9380-b91099d80b9e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks.php" beforeDir="false" afterPath="$PROJECT_DIR$/tasks.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/task.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/task.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="26b1941c-6cd8-4901-9380-b91099d80b9e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,20 +27,20 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="1" />
-          <entry key="php" value="23" />
+          <entry key="php" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Blade" value="6" />
           <entry key="Markdown" value="1" />
-          <entry key="PHP" value="17" />
+          <entry key="PHP" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="md" value="3" />
-          <entry key="php" value="1556" />
+          <entry key="php" value="1558" />
           <entry key="txt" value="28" />
         </counts>
       </usages-collector>
@@ -52,7 +48,7 @@
         <counts>
           <entry key="Blade" value="537" />
           <entry key="Markdown" value="3" />
-          <entry key="PHP" value="1019" />
+          <entry key="PHP" value="1021" />
           <entry key="PLAIN_TEXT" value="28" />
         </counts>
       </usages-collector>
@@ -65,15 +61,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tasks.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/people.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -110,11 +97,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lessons.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
               <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/framework/bootstrap.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -176,6 +172,7 @@
         <option value="$PROJECT_DIR$/people.php" />
         <option value="$PROJECT_DIR$/views/people.blade.php" />
         <option value="$PROJECT_DIR$/lessons.php" />
+        <option value="$PROJECT_DIR$/framework/bootstrap.php" />
       </list>
     </option>
   </component>
@@ -288,7 +285,7 @@
       <workItem from="1537468166228" duration="100000" />
       <workItem from="1537468329908" duration="1175000" />
       <workItem from="1537469544668" duration="1739000" />
-      <workItem from="1537535650034" duration="9394000" />
+      <workItem from="1537535650034" duration="9726000" />
     </task>
     <task id="LOCAL-00001" summary="TASK hardcore refct">
       <created>1537471110176</created>
@@ -308,7 +305,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12418000" />
+    <option name="totallyTimeSpent" value="12750000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1440" height="875" extended-state="6" />
@@ -459,6 +456,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
