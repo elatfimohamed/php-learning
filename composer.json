@@ -1,5 +1,23 @@
 {
+    "name": "elatfi/php-learning",
+    "description": "bla blabla",
+    "authors": [
+        {
+            "name": "elatfimohamed",
+            "email": "mohamedelatfi93@gmial.com"
+        }
+    ],
     "require": {
         "phpunit/phpunit": "^7.3"
+    },
+    "autoload": {
+        "classmap": [
+
+            "./"
+
+            ],
+        "files": [
+            "./helpers.php"
+        ]
     }
 }

@@ -7,5 +7,5 @@
  */
 
 
-require 'database/Connection.php';
+require 'database/connection.php';
 require 'database/QueryBuilder.php';

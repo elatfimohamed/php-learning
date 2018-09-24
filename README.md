@@ -60,3 +60,5 @@ HTTP REQUEST (TIPUS/METHODS)
 
 # Per fer
 * Donar de alta a la web de jetbreains File -> Sync Settings to Jetbrains Account
+
+*comanda de composer -->  composer dump-autoload

@@ -1,43 +1,27 @@
 <?php
 
-//
-//var_dump($_GET['greeting']);
-//die();
 
-//$_GET -> array
-//dd($asdasd)
+require 'framework/bootstrap.php';
+require 'vendor/autoload.php';
 
-//String -> $greeting='Hola';
-//Booleans -> $x = true/false;
-//Enters -> $num = 15;
+//Dos Opcions:
+// -Funció global
 
-//Array/Vector
+//require direct($uri);
+// -Metode dins classe ( funció dins d'una classe el seu nom tècnic mètode)
 
-//$fruites = array();
-//$fruites = [];
-//
-// Normal array
-//$platan = 'platan';
-//$presec = 'prèsec';
-//$taronja = 'taronja';
-//$fruites = [$platan, $presec, $$taronja] ;
-//
-//echo $fruites[0];
-//die()
+//$router = new Router();
 
-// Array associatiu
+//echo "<pre>";
 
-//$person="Sergi Tur Badenas";
+//var_dump($_SERVER['REQUEST_URI']);
 
-//$person = [
-//    'name' => 'Sergi Tur Badenas',
-//    'dni' => '14268078K'
-//    'mobile' => '67845712'
-//    //'email'
-//]
+//echo "</pre>";
 
-require 'functions.php';
 
-$greeting= hello($_GET['greeting']);
+require direct ($_SERVER['REQUEST_URI']);
 
-require 'views/index.blade.php';
+require Router::direct()
+
+
+
