@@ -5,4 +5,4 @@ require 'framework/bootstrap.php';
 
 require Router::direct($_SERVER['REQUEST_URI']);
 
-// -->MVC: Model Vista Controlador
+// MVC: Model Vista Controlador

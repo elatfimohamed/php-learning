@@ -6,4 +6,4 @@ require 'config.php';
 
 $routes = require 'routes.php';
 
-//Router::define($routes);
+Router::define($routes);

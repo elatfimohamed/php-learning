@@ -1,15 +1,16 @@
 <?php
 
-require 'models/Lesson.php';
-require 'framework/database/connect.php';
+//require 'models/Lesson.php';
 
-$pdo = connect();
+//$pdo = connect();
+//
+//$statement = $pdo->prepare('SELECT * FROM lessons;');
+//$statement->execute();
+//$lessons = $statement->fetchAll(PDO::FETCH_CLASS);
+//
+//$lessons = fetchAll('lessons');
 
-$statement = $pdo->prepare('SELECT * FROM lessons;');
-$statement->execute();
-$lessons = $statement->fetchAll(PDO::FETCH_CLASS);
-
-$lessons = fetchAll('lessons');
+$lessons =  [];
 
 
 require 'views/lessons.blade.php';
