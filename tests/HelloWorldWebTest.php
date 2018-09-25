@@ -10,7 +10,7 @@ class HelloWorldWebTest extends TestCase
         $this->expectOutputString('Hola mon');
 //        $this->expectOutputRegex()
 
-        $this->assertTrue($this->have('Hola mon', $this->));
+//        $this->assertTrue($this->have('Hola mon', $this->));
 
     }
 

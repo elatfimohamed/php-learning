@@ -1,27 +1,8 @@
 <?php
 
-
-require 'framework/bootstrap.php';
 require 'vendor/autoload.php';
+require 'framework/bootstrap.php';
 
-//Dos Opcions:
-// -Funció global
+require Router::direct($_SERVER['REQUEST_URI']);
 
-//require direct($uri);
-// -Metode dins classe ( funció dins d'una classe el seu nom tècnic mètode)
-
-//$router = new Router();
-
-//echo "<pre>";
-
-//var_dump($_SERVER['REQUEST_URI']);
-
-//echo "</pre>";
-
-
-require direct ($_SERVER['REQUEST_URI']);
-
-require Router::direct()
-
-
-
+// -->MVC: Model Vista Controlador

@@ -1,33 +1,22 @@
 <!doctype html>
-/**
- * Created by PhpStorm.
- * User: elatfi
- * Date: 21/09/18
- * Time: 16:45
- */
-
-
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Lessons</title>
+    <title>Tasques</title>
 </head>
 <body>
 
 <ul>
     <?php foreach ($lessons as $lesson) : ?>
-<li>
-    <?= $lesson->name; ?>
-</li>
-<?php endforeach;?>
+        <li>
+            <?= $lesson->name; ?>
+        </li>
+    <?php endforeach;?>
 </ul>
 
 
 </body>
 </html>
-
-
