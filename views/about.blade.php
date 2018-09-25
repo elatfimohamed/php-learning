@@ -1,4 +1,4 @@
-<<!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,6 +9,15 @@
 </head>
 <body>
 
+<nav>
+    <ul>
+        <li><a href="/tasks.php">Tasques</a></li>
+        <li><a href="/people.php">Persones</a></li>
+        <li><a href="/lessons.php">Lliçons</a></li>
+        <li><a href="/contact.php">Contacte</a></li>
+        <li><a href="/about.php">Sobre nosaltres</a></li>
+    </ul>
+</nav>
+<h1>ABOUT</h1>
 </body>
 </html>
-

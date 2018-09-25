@@ -7,3 +7,4 @@
  */
 
 
+require 'views/about.blade.php';

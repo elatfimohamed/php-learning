@@ -14,13 +14,12 @@ require 'framework/database/queryBuilder.php';
 
 
 $lessons = fetchAll(Connection::connect(), 'lessons');
-//
-//$statement = $pdo->prepare('SELECT * FROM lessons;');
-//$statement->execute();
-//$lessons = $statement->fetchAll(PDO::FETCH_CLASS);
-//$lessons = fetchAll('lessons');
+
+$statement = $pdo->prepare('SELECT * FROM lessons;');
+$statement->execute();
+$lessons = $statement->fetchAll(PDO::FETCH_CLASS);
 
 
-
+$lessons = fetchAll('lessons');
 
 require 'views/lessons.blade.php';
