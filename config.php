@@ -1,12 +1,14 @@
 <?php
 
-$config = [
+return [
     'database' => [
         'type' => 'mysql',
         'host' => '127.0.0.1',
-        'name' => 'php_learning',
+        'name' => 'php-learning',
         'user' => 'debian',
-        'password' => 'XpYuavOBcoVff67Q',
-        'options' => 'PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION',
+        'password' => '73ljBdLD9Yiztk1I',
+        'options' => [
+            'PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION'
+        ],
     ]
 ];

@@ -3,9 +3,9 @@
 <h1>People</h1>
 <ul>
     <?php foreach ($people as $person) : ?>
-        <li>
-            <?= $person->name; ?> | <?= $person->dni; ?>
-        </li>
+    <li>
+        <?= $person->name; ?> | <?= $person->dni; ?>
+    </li>
     <?php endforeach;?>
 </ul>
 

@@ -2,5 +2,5 @@
 
 //$pdo = connect();
 //$people = fetchAll($pdo,'people');
-$people = [];
+$People = [];
 require 'views/people.blade.php';
