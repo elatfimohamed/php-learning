@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: elatfi
- * Date: 26/09/18
- * Time: 16:49
- */
-
 
 class App {
 

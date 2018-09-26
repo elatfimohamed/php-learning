@@ -22,21 +22,23 @@
 
         <?php foreach ($tasks as $task) : ?>
 
-        <v-list-tile>
+            <v-list-tile>
 
-            <v-list-tile-avatar>
-                <img src="https://placeimg.com/100/100/any">
-            </v-list-tile-avatar>
+                <v-list-tile-avatar>
+                    <img src="https://placeimg.com/100/100/any">
+                </v-list-tile-avatar>
 
-            <v-list-tile-content>
-                <v-list-tile-title>
-                    <?= $task->name; ?>
-                </v-list-tile-title>
-            </v-list-tile-content>
-        </v-list-tile>
+                <v-list-tile-content>
+                    <v-list-tile-title>
+                        <?= $task->name; ?>
+                    </v-list-tile-title>
+                </v-list-tile-content>
+            </v-list-tile>
         <?php endforeach;?>
 
     </v-list>
 </v-card>
 
 <?php require 'partials/footer.blade.php' ?>
+
+

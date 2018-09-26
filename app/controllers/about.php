@@ -1,3 +1,3 @@
 <?php
 
-require 'views/about.blade.php';
+require 'app/views/about.blade.php';

@@ -2,6 +2,13 @@
 
 if (!function_exists('view')) {
     function view($view) {
-        return "views/$view.blade.php";
+        return "app/views/$view.blade.php";
+    }
+}
+
+if (!function_exists('config')) {
+    function config($key = null) {
+        if (!$key) return App::resolve('config');
+        return App::resolve('config')[$key];
     }
 }

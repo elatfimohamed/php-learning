@@ -13,6 +13,6 @@
 $lessons =  [];
 
 
-require 'views/lessons.blade.php';
+require 'app/views/lessons.blade.php';
 
 // WET -> DRY
